@@ -1,0 +1,19 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Кеш pytest
+.pytest_cache/
+
+# Локальная SQLite-база (генерируется при первом запуске)
+actuary_data.db
+
+# Служебные файлы редактора/расширений
+.continue/
+.vscode/
+.idea/
